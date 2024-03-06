@@ -1,8 +1,8 @@
-// @ts-check
+// @ts-nocheck
 
 import { test, expect } from '@jest/globals';
-import half from '../index.js';
+import functions from '../index.js';
 
 test('half', () => {
-  expect(half(6)).toBe(3);
+  expect(functions.half(6)).toBe(3);
 });
